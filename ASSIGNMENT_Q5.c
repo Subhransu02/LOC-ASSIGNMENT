@@ -23,14 +23,13 @@ int main()
         break;
 
     case 2:
-        Circumference = 2 * 3.14 * radius;
-        printf("The Circumference is %d", Circumference);
-        scanf("%d", &Circumference);
-
+        float Circumference = 2 * 3.14 * radius ;
+        printf("The Circumference is %f", Circumference);
+        break;
     case 3:
-        Area = 3.14 * radius * radius;
-        printf("The Area is %d", Area);
-        scanf("%d", &Area);
+        float Area = 3.14 * radius * radius;
+        printf("The Area is %f", Area);
+        break;
     }
 
     return 0;
