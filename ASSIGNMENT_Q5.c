@@ -19,7 +19,6 @@ int main()
     case 1:
         D = radius * 2;
         printf("The diameter is %d", D);
-        scanf("%d", &D);
         break;
 
     case 2:
