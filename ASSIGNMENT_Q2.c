@@ -13,6 +13,10 @@ int main() {
    {
        printf("Max between two numbers is: %d",num1);
    }
+   else if (num1==num2)
+   {
+       printf("Both are equal");
+   }
    else{
        printf("Max between two numbers is: %d",num2);
    }
